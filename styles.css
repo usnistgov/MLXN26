@@ -1,7 +1,7 @@
 /* Hero Section */
 .hero {
     position: relative;
-    background: url('header-image-small.png') no-repeat center top/cover;
+    background: url('header.png') no-repeat center top/cover;
     background-position: center 30%; /* Focus on the top 30% of the image */
     height: 40vh;
     display: flex;
@@ -330,4 +330,11 @@ button {
     border-radius: 8px;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Location section styling */
+.location-section {
+    background-color: #e9ecef;
+    border-top: 3px solid #dee2e6;
+    border-bottom: 3px solid #dee2e6;
 }
