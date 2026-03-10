@@ -19,7 +19,9 @@
 
     <script type="text/javascript">
         $(function(){
-         $('a[rel=external]').leaveNotice();
+         $('a[rel=external]').filter(function () {
+             return !/\.nist\.gov$/i.test(this.hostname) && this.hostname.toLowerCase() !== 'nist.gov';
+         }).leaveNotice();
         });
     </script>
 </head>
@@ -30,7 +32,7 @@
             <h1 class="display-4 fw-bold">MLXN 2026:<br/> Machine Learning for X-ray and <br/> Neutron Science</h1>
             <p class="lead"> April 12th-14th 2026 </p>
             <div class="mt-3">
-                <a href="https://forms.gle/ynrV3esvsdwa7TJN9" rel="external" class="btn btn-primary btn-lg me-2">Save the Date</a>
+                <a href="https://www.nist.gov/news-events/events/2026/04/mlxn-machine-learning-x-ray-and-neutron-scattering" rel="external" class="btn btn-primary btn-lg me-2">Register</a>
                 <a href="https://forms.gle/KNJUFj6BRtzy6MuB9" rel="external" class="btn btn-primary btn-lg">Submit Abstract</a>
             </div>
         </div>
@@ -159,11 +161,38 @@
 
     <!-- Hotel Section -->
     <section class="py-5 bg-light">
-        <div class="container text-center">
-            <h2>Hotel Accommodations</h2>
-            <p class="mt-3">
-                We are in the process of setting up a hotel block at a hotel close to the venue. Details will be shared soon.
-            </p>
+        <div class="container">
+            <h2 class="text-center mb-4">Hotel Accommodations</h2>
+            <div class="row align-items-center g-4">
+                <div class="col-lg-5">
+                    <img src="residence_inn.jpeg" alt="Dupont Circle neighborhood near Residence Inn hotel" class="img-fluid rounded shadow w-100" style="max-height: 420px; object-fit: cover;">
+                </div>
+                <div class="col-lg-7">
+                    <p class="mt-0">
+                        A hotel block has been reserved at <strong>Residence Inn Dupont Circle</strong>, located near the
+                        symposium venue in Washington, DC.
+                    </p>
+                    <p class="mt-3">
+                        The group rate is <strong>$239/night</strong>, excluding taxes and fees, and includes complimentary
+                        breakfast each day.
+                    </p>
+                    <p class="mb-0">
+                        The last day to book a room at this rate is <strong>March 27, 2026</strong>.
+                    </p>
+                    <p class="mt-3">
+                        <a href="https://www.nist.gov/news-events/events/2026/04/mlxn-machine-learning-x-ray-and-neutron-scattering" rel="external" class="btn btn-outline-primary btn-sm">View Official NIST Lodging Info</a>
+                    </p>
+                    <div class="card shadow-sm mt-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Hotel Address</h5>
+                            <a href="https://www.google.com/maps/search/?api=1&query=2120+P+Street+Northwest,+Washington,+DC+20037" rel="external" class="btn btn-primary btn-sm mb-3">Directions</a>
+                            <p class="card-text mb-1">Residence Inn Dupont Circle</p>
+                            <p class="card-text mb-1">2120 P Street Northwest</p>
+                            <p class="card-text mb-3">Washington, DC 20037</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

@@ -22,7 +22,9 @@
 
     <script type="text/javascript">
         $(function(){
-         $('a[rel=external]').leaveNotice();
+         $('a[rel=external]').filter(function () {
+             return !/\.nist\.gov$/i.test(this.hostname) && this.hostname.toLowerCase() !== 'nist.gov';
+         }).leaveNotice();
         });
     </script>
 </head>
@@ -40,7 +42,7 @@
             <h1 class="display-4 fw-bold">MLXN 2026:<br/> Machine Learning for X-ray and <br/> Neutron Science</h1>
             <p class="lead"> April 12th-14th 2026 </p>
             <div class="mt-3">
-                <a href="https://forms.gle/ynrV3esvsdwa7TJN9" rel="external" class="btn btn-primary btn-lg me-2">Save the Date</a>
+                <a href="https://www.nist.gov/news-events/events/2026/04/mlxn-machine-learning-x-ray-and-neutron-scattering" rel="external" class="btn btn-primary btn-lg me-2">Register</a>
                 <a href="https://forms.gle/KNJUFj6BRtzy6MuB9" rel="external" class="btn btn-primary btn-lg">Submit Abstract</a>
             </div>
             <!-- <a href="https://forms.gle/H5YNSt72dLBRPrXT7" rel="external" class="btn btn-primary btn-lg mt-3">Register Now</a> -->
