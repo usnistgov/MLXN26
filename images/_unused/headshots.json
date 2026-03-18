@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Prof. Volodymyr Bezguba",
+    "slug": "volodymyr-bezguba",
+    "status": "placeholder",
+    "profile_url": "https://kau.org.ua/en/bezguba",
+    "image": "placeholder-person.svg",
+    "source_image_url": ""
+  },
+  {
+    "name": "Prof. Kamal Choudhary",
+    "slug": "kamal-choudhary",
+    "status": "placeholder",
+    "profile_url": "https://engineering.jhu.edu/materials/faculty/kamal-choudhary/",
+    "image": "placeholder-person.svg",
+    "source_image_url": "https://engineering.jhu.edu/materials/wp-content/uploads/2025/07/KC-2022-e1751919309622-980x654.jpg"
+  },
+  {
+    "name": "Dr. Brian DeCost",
+    "slug": "brian-decost",
+    "status": "downloaded",
+    "profile_url": "https://www.nist.gov/people/brian-decost",
+    "image": "brian-decost.jpg",
+    "source_image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2023/03/30/decost_photo.jpg?itok=auQscOyP"
+  },
+  {
+    "name": "Dr. Changwoo Do",
+    "slug": "changwoo-do",
+    "status": "downloaded",
+    "profile_url": "https://www.ornl.gov/staff-profile/changwoo-do",
+    "image": "changwoo-do.jpg",
+    "source_image_url": "https://www.ornl.gov/sites/default/files/styles/staff_profile_image_style/public/2021-04/Changwoo%20Do-0058.jpg?h=738be4a5&itok=QlDm_nQ9"
+  },
+  {
+    "name": "Dr. Alexander Hexemer",
+    "slug": "alexander-hexemer",
+    "status": "downloaded",
+    "profile_url": "https://als.lbl.gov/people/alex-hexemer/",
+    "image": "alexander-hexemer.png",
+    "source_image_url": "https://als.lbl.gov/wp-content/uploads/2016/09/profile_dome.png"
+  },
+  {
+    "name": "Dr. David P. Hoogerheide",
+    "slug": "david-hoogerheide",
+    "status": "downloaded",
+    "profile_url": "https://www.nist.gov/people/david-p-hoogerheide",
+    "image": "david-hoogerheide.jpg",
+    "source_image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2019/04/25/dave_2018_0_crop2.jpg?itok=VgNbhmX0"
+  },
+  {
+    "name": "Dr. Jan Ilavsky",
+    "slug": "jan-ilavsky",
+    "status": "downloaded",
+    "profile_url": "https://www.anl.gov/profile/jan-ilavsky",
+    "image": "jan-ilavsky.jpg",
+    "source_image_url": "https://www.anl.gov/sites/www/files/styles/profile_teaser_square_350px/public/Jan%20Ilavsky.jpg?itok=Iy5zpzVc"
+  },
+  {
+    "name": "Dr. Haili Jia",
+    "slug": "haili-jia",
+    "status": "placeholder",
+    "profile_url": "https://www.anl.gov/profile/haili-jia",
+    "image": "placeholder-person.svg",
+    "source_image_url": "https://www.anl.gov/sites/www/files/styles/profile_teaser_square_350px/public/Jia_Haili_Headshot_2.JPG?h=00546c34&itok=Xq1y_vCk"
+  },
+  {
+    "name": "Dr. Aileen Luo",
+    "slug": "aileen-luo",
+    "status": "placeholder",
+    "profile_url": "",
+    "image": "placeholder-person.svg",
+    "source_image_url": ""
+  },
+  {
+    "name": "Prof. Boran Ma",
+    "slug": "boran-ma",
+    "status": "downloaded",
+    "profile_url": "https://www.maresearchlab.com/team-boranma-usm",
+    "image": "boran-ma.jpg",
+    "source_image_url": "https://images.squarespace-cdn.com/content/v1/649070693f34fd2b7114a171/e7918b9f-a524-48fc-bebe-1d8a3fcacb75/BoranMa_headshot.jpg"
+  },
+  {
+    "name": "Dr. Marshall T. McDonnell",
+    "slug": "marshall-mcdonnell",
+    "status": "downloaded",
+    "profile_url": "https://www.ornl.gov/staff-profile/marshall-t-mcdonnell",
+    "image": "marshall-mcdonnell.jpg",
+    "source_image_url": "https://www.ornl.gov/sites/default/files/styles/staff_profile_image_style/public/2019-03/marshall_head_shot.jpg?h=44e28135&itok=UHEWLgbt"
+  },
+  {
+    "name": "Prof. Dr. Peter M\u00fcller-Buschbaum",
+    "slug": "peter-mueller-buschbaum",
+    "status": "downloaded",
+    "profile_url": "https://www.professoren.tum.de/en/mueller-buschbaum-peter/",
+    "image": "peter-mueller-buschbaum.png",
+    "source_image_url": "https://www.professoren.tum.de/fileadmin/w00bgr/www/pics/Mueller-Buschbaum_140x180.png"
+  },
+  {
+    "name": "Dr. Viktor Reshniak",
+    "slug": "viktor-reshniak",
+    "status": "downloaded",
+    "profile_url": "https://www.ornl.gov/staff-profile/viktor-reshniak",
+    "image": "viktor-reshniak.jpg",
+    "source_image_url": "https://www.ornl.gov/sites/default/files/styles/staff_profile_image_style/public/2020-12/bio-photo.jpg?h=fd335c6d&itok=9FQhlYnu"
+  },
+  {
+    "name": "Dr. Thomas Holm Rod",
+    "slug": "thomas-holm-rod",
+    "status": "downloaded",
+    "profile_url": "https://ess.eu/profile/thomas-holm-rod",
+    "image": "thomas-holm-rod.jpg",
+    "source_image_url": "https://ess.eu/sites/default/files/styles/menu_thumbnail/public/images/hero/2018-07/waterDreamPromo_300ppi.jpg?h=9003c45f&itok=4h5uSAbr"
+  },
+  {
+    "name": "Prof. Dr. Stephan Volkher Roth",
+    "slug": "stephan-roth",
+    "status": "downloaded",
+    "profile_url": "https://photon-science.desy.de/research/research_teams/fs_sma/team/index_eng.html",
+    "image": "stephan-roth.jpg",
+    "source_image_url": "https://photon-science.desy.de/sites/site_photonscience/content/e62/e187741/e319721/e319829/e320196/2023-10-20_Roth_Stephan-FS-SMA_MM-6358_eng.jpg"
+  },
+  {
+    "name": "Dr. Jon Taylor",
+    "slug": "jon-taylor",
+    "status": "downloaded",
+    "profile_url": "https://www.ornl.gov/content/jon-taylor",
+    "image": "jon-taylor.jpg",
+    "source_image_url": "https://www.ornl.gov/sites/default/files/styles/large/public/2026-02/taylor.jpg?itok=kclO4BIJ"
+  },
+  {
+    "name": "Prof. Marina Tropmann-Frick",
+    "slug": "marina-tropmann-frick",
+    "status": "downloaded",
+    "profile_url": "https://www.haw-hamburg.de/person/marina-tropmann-frick/",
+    "image": "marina-tropmann-frick.svg",
+    "source_image_url": "https://www.haw-hamburg.de/_assets/9859f69a27aa8205670b74cf083e0644/Images/HAW_Marke_weiss_RGB.svg"
+  },
+  {
+    "name": "Dr. Chi-Huan Tung",
+    "slug": "chi-huan-tung",
+    "status": "downloaded",
+    "profile_url": "https://www.ornl.gov/staff-profile/chi-huan-tung",
+    "image": "chi-huan-tung.png",
+    "source_image_url": "https://www.ornl.gov/themes/custom/ornl/images/no-profile-img.png"
+  },
+  {
+    "name": "Dr. Xiaoping Wang",
+    "slug": "xiaoping-wang",
+    "status": "downloaded",
+    "profile_url": "https://www.ornl.gov/staff-profile/xiaoping-wang",
+    "image": "xiaoping-wang.jpg",
+    "source_image_url": "https://www.ornl.gov/sites/default/files/styles/staff_profile_image_style/public/2019-10/Photo_2x2_01_1.jpg?h=20f600d1&itok=p9D24-1t"
+  },
+  {
+    "name": "Dr. Zhongcan Xiao",
+    "slug": "zhongcan-xiao",
+    "status": "downloaded",
+    "profile_url": "https://impact.ornl.gov/en/persons/zhongcan-xiao/",
+    "image": "zhongcan-xiao.png",
+    "source_image_url": "https://impact.ornl.gov/skin/headerImage/"
+  },
+  {
+    "name": "Dr. Bowen Zheng",
+    "slug": "bowen-zheng",
+    "status": "downloaded",
+    "profile_url": "https://als.lbl.gov/people/bowen-zheng/",
+    "image": "bowen-zheng.png",
+    "source_image_url": "https://als.lbl.gov/wp-content/uploads/2016/09/profile_dome.png"
+  }
+]

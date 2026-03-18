@@ -338,3 +338,121 @@ button {
     border-top: 3px solid #dee2e6;
     border-bottom: 3px solid #dee2e6;
 }
+
+.schedule-page {
+    background:
+        radial-gradient(circle at top right, rgba(13, 110, 253, 0.08), transparent 28%),
+        linear-gradient(180deg, #f8fbff 0%, #ffffff 38%);
+}
+
+.schedule-intro {
+    max-width: 760px;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.schedule-intro .eyebrow {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    background: rgba(13, 110, 253, 0.1);
+    color: #0d6efd;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+}
+
+.speaker-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid rgba(13, 110, 253, 0.1);
+    border-radius: 18px;
+    background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.07);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.speaker-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto auto 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 18px 18px 0 0;
+    background: linear-gradient(90deg, #0d6efd, #63a4ff);
+}
+
+.speaker-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 34px rgba(15, 23, 42, 0.12);
+}
+
+.speaker-photo-wrap {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 18px 18px 0 0;
+    background: linear-gradient(180deg, #eef4fb 0%, #e3edf9 100%);
+}
+
+.speaker-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.speaker-photo.placeholder {
+    object-fit: contain;
+    padding: 2rem;
+}
+
+.speaker-card-body {
+    padding: 1.35rem 1.5rem 1.5rem;
+}
+
+.speaker-name {
+    margin: 0 0 0.75rem;
+    font-size: 1.15rem;
+    line-height: 1.35;
+}
+
+.speaker-affiliation {
+    margin: 0;
+    color: #495057;
+    font-weight: 500;
+}
+
+.speaker-affiliation.missing {
+    color: #6c757d;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media (max-width: 576px) {
+    .speaker-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .speaker-card {
+        border-radius: 16px;
+    }
+
+    .speaker-photo-wrap {
+        border-radius: 16px 16px 0 0;
+    }
+
+    .speaker-card-body {
+        padding: 1.15rem 1.2rem 1.25rem;
+    }
+}
