@@ -25,7 +25,7 @@
         });
     </script>
 </head>
-<body class="schedule-page">
+<body class="schedule-agenda-page">
     <!-- Hero Section -->
     <header class="hero d-flex flex-column justify-content-center align-items-center text-center">
         <div class="container text-white py-5">
@@ -58,6 +58,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="schedule.html">Schedule</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="speakers.html">Speakers</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -65,204 +68,66 @@
 
     <section class="py-5">
         <div class="container">
+
             <div class="schedule-intro">
-                <span class="eyebrow">Schedule</span>
-                <h2 class="mb-3">Confirmed Speakers</h2>
-                <p class="lead mb-0">
-                    Full session timing will be posted here later. For now, the confirmed speaker list is shown below in alphabetical order.
-                </p>
+                <span class="eyebrow">Tentative Schedule</span>
             </div>
 
-            <div class="speaker-grid">
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo placeholder" src="images/placeholder-person.svg" alt="Placeholder portrait for Prof. Volodymyr Bezguba" loading="lazy">
+            <div class="schedule-status-note" role="note">
+                Full details for the meeting, including session assignments and abstracts, will be shared soon.
+            </div>
+
+            <div id="scheduleError" class="alert alert-danger d-none" role="alert"></div>
+
+            <div class="agenda-layout">
+                <section class="agenda-board-shell" aria-labelledby="agenda-title">
+                    <div class="agenda-board-header">
+                        <div>
+                            <span class="eyebrow">Click entries for more details</span>
+                        </div>
                     </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Prof. Volodymyr Bezguba</h3>
-                        <p class="speaker-affiliation">Kyiv Academic University</p>
+                    <div id="agendaBoard" class="agenda-board" aria-live="polite"></div>
+                </section>
+
+                <aside class="agenda-detail-shell" aria-labelledby="agenda-detail-title">
+                    <div class="agenda-detail-card">
+                        <span class="eyebrow">Details</span>
+                        <h3 id="agenda-detail-title">Select a session</h3>
+                        <p id="agendaDetailSummary" class="agenda-detail-summary">
+                            Choose any agenda block to review timing, speakers, and session information.
+                        </p>
+
+                        <dl class="agenda-detail-meta">
+                            <div>
+                                <dt>Day</dt>
+                                <dd id="agendaDetailDay">Not selected</dd>
+                            </div>
+                            <div>
+                                <dt>Time</dt>
+                                <dd id="agendaDetailTime">Not selected</dd>
+                            </div>
+                            <div>
+                                <dt>Type</dt>
+                                <dd id="agendaDetailType">Not selected</dd>
+                            </div>
+                            <div>
+                                <dt>Location</dt>
+                                <dd id="agendaDetailLocation">Not selected</dd>
+                            </div>
+                            <div>
+                                <dt>Speaker</dt>
+                                <dd id="agendaDetailSpeaker">Not selected</dd>
+                            </div>
+                        </dl>
+
+                        <div class="agenda-detail-section">
+                            <h4>Abstract / Notes</h4>
+                            <p id="agendaDetailAbstract" class="mb-0">
+                                Session details will appear here after you select an item.
+                            </p>
+                        </div>
                     </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/kamal-choudhary.png" alt="Portrait of Prof. Kamal Choudhary" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Prof. Kamal Choudhary</h3>
-                        <p class="speaker-affiliation">Johns Hopkins University</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/brian-decost.jpg" alt="Portrait of Dr. Brian DeCost" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Brian DeCost</h3>
-                        <p class="speaker-affiliation">National Institute of Standards and Technology</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/changwoo-do.jpg" alt="Portrait of Dr. Changwoo Do" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Changwoo Do</h3>
-                        <p class="speaker-affiliation">Oak Ridge National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/alexander-hexemer.png" alt="Portrait of Dr. Alexander Hexemer" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Alexander Hexemer</h3>
-                        <p class="speaker-affiliation">Advanced Light Source, Lawrence Berkeley National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/david-hoogerheide.jpg" alt="Portrait of Dr. David P. Hoogerheide" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. David P. Hoogerheide</h3>
-                        <p class="speaker-affiliation">National Institute of Standards and Technology</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/jan-ilavsky.jpg" alt="Portrait of Dr. Jan Ilavsky" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Jan Ilavsky</h3>
-                        <p class="speaker-affiliation">Argonne National Laboratory, Advanced Photon Source</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/haili-jia.png" alt="Portrait of Dr. Haili Jia" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Haili Jia</h3>
-                        <p class="speaker-affiliation">Argonne National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo placeholder" src="images/placeholder-person.svg" alt="Placeholder portrait for Dr. Aileen Luo" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Aileen Luo</h3>
-                        <p class="speaker-affiliation">Argonne National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/boran-ma.jpg" alt="Portrait of Prof. Boran Ma" loading="lazy" style="--speaker-focus-y: 14%;">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Prof. Boran Ma</h3>
-                        <p class="speaker-affiliation">The University of Southern Mississippi</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/marshall-mcdonnell.jpg" alt="Portrait of Dr. Marshall T. McDonnell" loading="lazy" style="--speaker-focus-y: 16%;">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Marshall T. McDonnell</h3>
-                        <p class="speaker-affiliation">Oak Ridge National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/peter-mueller-buschbaum.png" alt="Portrait of Prof. Dr. Peter Müller-Buschbaum" loading="lazy" style="--speaker-focus-y: 16%;">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Prof. Dr. Peter Müller-Buschbaum</h3>
-                        <p class="speaker-affiliation">Technical University of Munich (TUM)</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/viktor-reshniak.jpg" alt="Portrait of Dr. Viktor Reshniak" loading="lazy" style="--speaker-focus-y: 36%;">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Viktor Reshniak</h3>
-                        <p class="speaker-affiliation">Oak Ridge National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo placeholder" src="images/placeholder-person.svg" alt="Placeholder portrait for Dr. Thomas Holm Rod" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Thomas Holm Rod</h3>
-                        <p class="speaker-affiliation">European Spallation Source ERIC</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/stephan-roth.jpg" alt="Portrait of Prof. Dr. Stephan Volkher Roth" loading="lazy" style="--speaker-focus-y: 22%;">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Prof. Dr. Stephan Volkher Roth</h3>
-                        <p class="speaker-affiliation">DESY and KTH Royal Institute of Technology</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/jon-taylor.jpg" alt="Portrait of Dr. Jon Taylor" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Jon Taylor</h3>
-                        <p class="speaker-affiliation">Oak Ridge National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo placeholder" src="images/placeholder-person.svg" alt="Placeholder portrait for Prof. Marina Tropmann-Frick" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Prof. Marina Tropmann-Frick</h3>
-                        <p class="speaker-affiliation">Hamburg University of Applied Sciences (HAW Hamburg)</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo placeholder" src="images/placeholder-person.svg" alt="Placeholder portrait for Dr. Chi-Huan Tung" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Chi-Huan Tung</h3>
-                        <p class="speaker-affiliation">Oak Ridge National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/xiaoping-wang.jpg" alt="Portrait of Dr. Xiaoping Wang" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Xiaoping Wang</h3>
-                        <p class="speaker-affiliation">Oak Ridge National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo placeholder" src="images/placeholder-person.svg" alt="Placeholder portrait for Dr. Zhongcan Xiao" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Zhongcan Xiao</h3>
-                        <p class="speaker-affiliation">Oak Ridge National Laboratory</p>
-                    </div>
-                </article>
-                <article class="speaker-card">
-                    <div class="speaker-photo-wrap">
-                        <img class="speaker-photo" src="images/bowen-zheng.jpg" alt="Portrait of Dr. Bowen Zheng" loading="lazy">
-                    </div>
-                    <div class="speaker-card-body">
-                        <h3 class="speaker-name">Dr. Bowen Zheng</h3>
-                        <p class="speaker-affiliation">Advanced Light Source, Lawrence Berkeley National Laboratory</p>
-                    </div>
-                </article>
+                </aside>
             </div>
         </div>
     </section>
@@ -273,5 +138,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="schedule.js"></script>
 </body>
 </html>
