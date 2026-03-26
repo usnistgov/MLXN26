@@ -144,12 +144,12 @@
       "day": "mon-2026-04-13",
       "start": "12:00",
       "end": "13:30",
-      "title": "Provided Lunch",
-      "summary": "Lunch provided for registered attendees.",
+      "title": "Lunch",
+      "summary": "Lunch",
       "typeLabel": "Meal",
       "location": "Dining Area",
       "speaker": "N/A",
-      "abstract": "Lunch service details and dietary information will be listed here.",
+      "abstract": "Lunch",
       "theme": "meal"
     },
     {
@@ -379,12 +379,12 @@
       "day": "tue-2026-04-14",
       "start": "12:00",
       "end": "13:30",
-      "title": "Provided Lunch",
-      "summary": "Lunch provided for registered attendees.",
+      "title": "Lunch",
+      "summary": "Lunch",
       "typeLabel": "Meal",
       "location": "Dining Area",
       "speaker": "N/A",
-      "abstract": "Lunch service details and dietary information will be listed here.",
+      "abstract": "Lunch",
       "theme": "meal"
     },
     {
