@@ -464,11 +464,11 @@
       "start": "15:30",
       "end": "16:00",
       "title": "Dr. Kiran Vaddi",
-      "summary": "Talk title to be announced.",
+      "summary": "Function Space Data Representations for Self-driving Laboratories",
       "typeLabel": "Talk",
       "location": "Main Room",
       "speaker": "Dr. Kiran Vaddi",
-      "abstract": "Not provided",
+      "abstract": "Self-driving laboratories (SDLs) are revolutionizing the pace of materials discovery by closing the loop between robotic automation and machine learning (ML). These systems move beyond traditional trial-and-error by using autonomous agents to make physics-grounded experimental decisions. However, applying SDLs to materials science requires overcoming a significant hurdle: the need to process heterogeneous, multimodal datasets.  In many characterization techniques—such as X-ray scattering, spectroscopy, and time-resolved measurements—the output is not a single number, but a complex \"function\" or curve where intensity varies across wavelength, energy, or time. These functional data types encode rich structural information but are difficult for standard ML models to interpret. This talk introduces a mathematically grounded framework, rooted in the differential geometry of function spaces, designed to extract interpretable features from these high-dimensional measurements. I will demonstrate how this approach enables real-time, informed action in SDLs applied to nanoscale colloids, polymers, and industrial formulations.",
       "theme": "talk",
       "affiliation": "National Institute of Standards and Technology"
     },
