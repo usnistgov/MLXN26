@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const detailType = document.getElementById('agendaDetailType');
     const detailLocation = document.getElementById('agendaDetailLocation');
     const detailSpeaker = document.getElementById('agendaDetailSpeaker');
+    const detailAffiliation = document.getElementById('agendaDetailAffiliation');
     const detailAbstract = document.getElementById('agendaDetailAbstract');
 
     const showError = (message) => {
@@ -44,7 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
         detailType.textContent = event.typeLabel || event.themeLabel || 'Session';
         detailLocation.textContent = event.location || 'To be announced';
         detailSpeaker.textContent = event.speaker || 'To be announced';
-        detailAbstract.textContent = event.abstract || 'No abstract provided yet.';
+        detailAffiliation.textContent = event.affiliation || 'Not provided';
+        detailAbstract.textContent = event.abstract || 'Not provided';
     };
 
     const buildSchedule = (data) => {
