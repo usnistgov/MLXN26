@@ -398,7 +398,7 @@ button {
 
 .agenda-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 320px;
+    grid-template-columns: minmax(0, 1fr) 380px;
     gap: 1.5rem;
     align-items: start;
 }
@@ -423,7 +423,7 @@ button {
 }
 
 .agenda-grid {
-    --agenda-time-width: 9.25rem;
+    --agenda-time-width: 8.5rem;
     --agenda-slot-height: 2.55rem;
     display: grid;
     grid-template-columns: var(--agenda-time-width) repeat(var(--agenda-day-count, 3), minmax(220px, 1fr));
@@ -569,7 +569,7 @@ button {
     position: sticky;
     top: 1rem;
     width: 100%;
-    max-width: 320px;
+    max-width: 380px;
 }
 
 .agenda-detail-card {
