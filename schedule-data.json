@@ -45,17 +45,32 @@
       "theme": "neutral"
     },
     {
-      "id": "mon-opening",
+      "id": "mon-talk-0a",
       "day": "mon-2026-04-13",
       "start": "08:30",
-      "end": "09:00",
-      "title": "Opening Remarks",
-      "summary": "Welcome remarks from the organizers.",
-      "typeLabel": "Opening",
+      "end": "08:45",
+      "title": "Dr. Kathryn Beers",
+      "summary": "Welcome Remarks from the Director of NIST's Material Measurement Lab",
+      "typeLabel": "Talk",
       "location": "Main Room",
-      "speaker": "Organizers and NIST Management",
-      "abstract": "Opening remarks will welcome attendees, introduce the meeting goals, and outline the program for the day.",
-      "theme": "neutral"
+      "speaker": "Dr. Kathryn Beers",
+      "abstract": "Welcome Remarks from the Director of NIST's Material Measurement Lab",
+      "theme": "talk",
+      "affiliation": "National Institute of Standards and Technology"
+    },
+    {
+      "id": "mon-talk-0b",
+      "day": "mon-2026-04-13",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Dr. Ronald Jones",
+      "summary": "Welcome Remarks from the Leader of the Neutron Condensed Matter Science Group at the NIST Center for Neutron Research (NCNR)",
+      "typeLabel": "Talk",
+      "location": "Main Room",
+      "speaker": "Dr. Ronald Jones",
+      "abstract": "Welcome Remarks from the Leader of the Neutron Condensed Matter Science Group at the NIST Center for Neutron Research (NCNR)",
+      "theme": "talk",
+      "affiliation": "National Institute of Standards and Technology"
     },
     {
       "id": "mon-talk-1",
@@ -470,6 +485,32 @@
     },
     {
       "id": "tue-talk-11",
+      "day": "tue-2026-04-14",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Dr. Ming-Chiang Chang",
+      "summary": "Talk title to be announced.",
+      "typeLabel": "Talk",
+      "location": "Main Room",
+      "speaker": "Dr. Ming-Chiang Chang",
+      "abstract": "Not provided",
+      "theme": "talk"
+    },
+    {
+      "id": "tue-talk-12",
+      "day": "tue-2026-04-14",
+      "start": "16:30",
+      "end": "17:00",
+      "title": "Dr. Fredrik Bolmsten",
+      "summary": "Talk title to be announced.",
+      "typeLabel": "Talk",
+      "location": "Main Room",
+      "speaker": "Dr. Fredrik Bolmsten",
+      "abstract": "Not provided",
+      "theme": "talk"
+    },
+    {
+      "id": "tue-talk-13",
       "day": "mon-2026-04-13",
       "start": "17:00",
       "end": "17:30",
@@ -483,16 +524,16 @@
       "affiliation": "Argonne National Laboratory"
     },
     {
-      "id": "tue-talk-12",
+      "id": "tue-closing",
       "day": "tue-2026-04-14",
-      "start": "16:00",
-      "end": "17:00",
-      "title": "Closing Discussion",
-      "summary": "Discussion session highlighting the major themes of the meeting and outlining next steps for the field.",
+      "start": "17:00",
+      "end": "17:30",
+      "title": "Adjourn",
+      "summary": "Meeting adjourns following the final Tuesday session.",
       "typeLabel": "Discussion",
       "location": "Main Room",
       "speaker": "All participants",
-      "abstract": "A closing discussion to reflect on the main themes that emerged across the meeting, identify shared priorities, and discuss next steps for the field.",
+      "abstract": "Adjournment of the meeting following the final Tuesday session.",
       "theme": "neutral"
     }
   ]

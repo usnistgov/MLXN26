@@ -107,13 +107,17 @@ document.addEventListener('DOMContentLoaded', () => {
             eventsByDay.get(day.id).forEach((event) => {
                 const eventStart = parseClockTime(event.start);
                 const eventEnd = parseClockTime(event.end);
-                const startSlot = Math.floor((eventStart - startMinutes) / slotMinutes) + 1;
-                const span = Math.max(1, Math.round((eventEnd - eventStart) / slotMinutes));
+                const startSlot = (eventStart - startMinutes) / slotMinutes;
+                const span = Math.max(0.5, (eventEnd - eventStart) / slotMinutes);
                 const button = document.createElement('button');
 
                 button.type = 'button';
                 button.className = `agenda-event theme-${event.theme || 'neutral'}`;
-                button.style.gridRow = `${startSlot} / span ${span}`;
+                button.style.top = `calc(${startSlot} * var(--agenda-slot-height))`;
+                button.style.height = `calc(${span} * var(--agenda-slot-height))`;
+                if (span < 1) {
+                    button.classList.add('agenda-event-compact');
+                }
                 button.dataset.eventId = event.id;
 
                 const title = document.createElement('span');
