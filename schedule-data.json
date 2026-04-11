@@ -494,7 +494,8 @@
       "location": "Main Room",
       "speaker": "Dr. Ming-Chiang Chang",
       "abstract": "Not provided",
-      "theme": "talk"
+      "theme": "talk",
+      "affiliation": "National Institute of Standards and Technology"
     },
     {
       "id": "tue-talk-12",
@@ -507,7 +508,8 @@
       "location": "Main Room",
       "speaker": "Dr. Fredrik Bolmsten",
       "abstract": "The ESS Centre for Data Management and Scientific Computing (DMSC) is responsible for providing the data management, data processing, and scientific computing solutions required throughout the full user life cycle for beam time experiments at the European Spallation Source (ESS). DMSC was an integral part of the ESS design phase, reflecting the recognition that software and data processing—and in particular data analysis—are often the primary bottleneck for producing scientific results.\nConsequently, since its inauguration, DMSC has focused on delivering robust and reliable solutions in time for the start of neutron generation. Cautious about the risk of diverting developer effort from activities essential for operation, emerging fields such as machine learning and artificial intelligence were therefore largely left to externally funded activities. However, in recent years the rapid and pervasive advancement of machine learning and AI has reached a point where failing to act risks positioning ESS as the facility of yesterday by the time routine operations begin. Given the substantial investment in constructing and operating ESS, the potential of AI and machine learning to lower barriers to entry and increase scientific impact must be actively leveraged. ESS is therefore in the process of defining a strategy for adopting AI for the benefit of its users and stakeholders.\nIn this presentation, I will outline how DMSC has inevitably been impacted by AI, how it is involved in developing AI assisted services in support of the construction project and science journey. I will describe how AI assisted user services will be deployed at ESS and within the European Open Science Cloud, for example through the Pan Finder project. These services include accessible \"low hanging fruit\" based on standard large language models. The presentation will conclude with a tentative strategy for how ESS plans to adapt AI in order to maximize scientific return on investment.",
-      "theme": "talk"
+      "theme": "talk",
+      "affiliation": "European Spallation Source"
     },
     {
       "id": "tue-talk-13",
