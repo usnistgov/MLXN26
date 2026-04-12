@@ -2,7 +2,7 @@
   "conference": {
     "slotMinutes": 30,
     "timeRange": {
-      "start": "08:00",
+      "start": "07:30",
       "end": "21:00"
     }
   },
@@ -34,7 +34,7 @@
     {
       "id": "mon-registration",
       "day": "mon-2026-04-13",
-      "start": "08:00",
+      "start": "07:30",
       "end": "08:30",
       "title": "Meeting Registration and Refreshments",
       "summary": "Check-in and morning refreshments before Monday sessions begin.",
@@ -295,7 +295,7 @@
     {
       "id": "tue-breakfast",
       "day": "tue-2026-04-14",
-      "start": "08:00",
+      "start": "07:30",
       "end": "08:30",
       "title": "Meeting Registration and Refreshments",
       "summary": "Check-in and morning refreshments before Tuesday sessions begin.",
