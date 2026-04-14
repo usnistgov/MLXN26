@@ -489,11 +489,11 @@
       "start": "16:30",
       "end": "17:00",
       "title": "Dr. Ming-Chiang Chang",
-      "summary": "Talk title to be announced.",
+      "summary": "Bridging the XRD Analysis Gap in Experimental Materials Discovery Workflows",
       "typeLabel": "Talk",
       "location": "Main Room",
       "speaker": "Dr. Ming-Chiang Chang",
-      "abstract": "Not provided",
+      "abstract": "The rapid advancement of autonomous laboratories and high-throughput synthesis has shifted the primary bottleneck in materials discovery from synthesis to characterization. Specifically, the automated analysis of X-ray diffraction (XRD) data remains a challenge due to experimental noise, overlapping signals, complex lattice shifts, and combinatorial explosion. To address this, we present two distinct computational frameworks designed to integrate seamlessly into experimental workflows. First, we introduce CrystalShift, a search-based multiphase probabilistic phase labeling method designed for autonomous experiments. It provides robust probability estimates for phase labels while being agile and working well with sparse data. Second, we present an evolution of the Deep Reasoning Network (DRNet) architecture optimized for high-throughput phase mapping. By exploiting inter-datapoint relationships within large datasets, this approach enables rapid phase demixing and labeling, significantly accelerating the construction of comprehensive phase diagrams following combinatorial synthesis and processing.",
       "theme": "talk",
       "affiliation": "National Institute of Standards and Technology"
     },
